@@ -1,0 +1,21 @@
+.container{
+    background-color:whitesmoke;
+    height: 700px;
+width: 1900px;
+}
+.rightSide img{
+    padding-left: 1050px;
+    height: 650px;
+    width: 900px;
+    margin-bottom: 100px;
+ }
+ .leftside h1{
+margin-left: 200px;
+
+
+ }
+ .marginbottom{
+    margin-left: 90px;
+    
+ }
+

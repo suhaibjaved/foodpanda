@@ -1,0 +1,15 @@
+.putpocket {
+    width: 85%;
+    height:350px;
+    background-color:#FF2B85;
+    flex-direction:column;
+    display:block;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    min-height: 200px;
+
+  }
+ .putpocket.putparagraph{
+  flex-direction: row;
+ }

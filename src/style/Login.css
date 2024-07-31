@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.page{
+   height: 20vh;
+   width: 100%;
+   display: flex; 
+   justify-content: center;
+align-items: center;
+
+}

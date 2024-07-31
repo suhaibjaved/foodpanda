@@ -1,0 +1,70 @@
+.navbar {
+
+    flex-direction: row;
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 80%;
+    padding: 10px;
+    z-index: 1000;
+  
+  }
+  .navbar .leftSide {
+    padding-left: 50px;
+    flex: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .navbar .leftSide img {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 150px;
+  }
+  .modal, .overlay{
+    width:100vw ;
+    height: 200vw;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+  }
+  .overlay{
+    background: rgba(39,39,39,0.8);
+  
+  }
+  .modal-content{
+    position: absolute;
+    top: 230px;
+  right:700px;
+  transform:s translate(-50%,-50%);
+  line-height: 1.4;
+  background: white;
+  padding: 14px 28px;
+  border-radius: 15px;
+  max-width: 500px;
+  min-width: 400px;
+  width: 100px;
+  height: 500px;
+  
+  }
+  .close-modal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+  
+  }
+  .hover{
+    transform: scale(1.1);
+  }
+  .navbar.fixed{
+    background-color: white;
+    transition: .3s ease-in-out;
+  }
+  
+ 
+  
+  
+  
